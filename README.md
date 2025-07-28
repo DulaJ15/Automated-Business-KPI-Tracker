@@ -21,9 +21,6 @@ A smart KPI monitoring system that ingests Excel sheets, calculates key performa
 - Prophet or Scikit-learn
 - SMTP / Slack API for alerts
 
-## ✅ Demo
-[Include Colab / Streamlit link]
-
 ## 📥 Input Format
 Upload Excel file like:
 | Date       | Revenue | Orders | New Customers | Returning Customers |
