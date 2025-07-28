@@ -10,8 +10,6 @@ A smart KPI monitoring system that ingests Excel sheets, calculates key performa
 - Optional integrations for automated alerts via Email or Slack when critical KPIs deviate beyond thresholds
 - Modular and extendable codebase for easy addition of new KPIs or alert channels
 
----
-
 ## 📁 Project Structure
 - `/data`: Example Excel files
 - `/app`: Streamlit app for interaction
@@ -19,8 +17,6 @@ A smart KPI monitoring system that ingests Excel sheets, calculates key performa
 - `/notebooks`: Exploratory analysis and prototyping
 - `/requirements.txt`: Python dependencies
 - `/README.md`: Project overview and setup instructions
-
---- 
 
 ## 🛠️ Tech Stack
 - Python 3.8+  
@@ -30,23 +26,17 @@ A smart KPI monitoring system that ingests Excel sheets, calculates key performa
 - Matplotlib, Seaborn for charts and visualizations  
 - SMTP and Slack APIs for alert notifications
 
----
-
 ## 📥 Input Format
 Upload Excel file like:
 | Date       | Revenue | Orders | New Customers | Returning Customers |
 |------------|---------|--------|----------------|----------------------|
 | 2025-07-01 | 500000  | 250    | 45             | 205                  |
 
----
-
 ## 📤 Output
 - Real-time dashboard showing calculated KPIs and their historical trends  
 - Anomaly detection visual cues and flagged data points  
 - Optional email or Slack alerts when revenue or other KPIs drop below defined thresholds (e.g., 2+ standard deviations)  
 - Downloadable reports and charts (future feature roadmap)
-
----
 
 ## ⚙️ Getting Started
 
@@ -70,8 +60,6 @@ Upload Excel file like:
     streamlit run app/kpi_tracker_app.py
    
 4. Upload your Excel data and explore KPIs with the interactive dashboard.
-
----
 
 ## 🔮 Future Enhancements
 - Add support for automated scheduling and email/Slack alerts
