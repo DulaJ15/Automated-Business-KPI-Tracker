@@ -1,9 +1,12 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-from utils.kpi_calculations import calculate_basic_kpis, detect_anomalies, forecast_kpi
 from prophet.plot import plot_plotly
 import plotly.graph_objs as go
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from utils.kpi_calculations import calculate_basic_kpis, detect_anomalies, forecast_kpi
 
 st.set_page_config(page_title="Automated KPI Tracker", layout="wide")
 
